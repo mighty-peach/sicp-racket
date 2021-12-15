@@ -2,8 +2,6 @@
 
 (#%require rackunit)
 
-
-
 (define (pascals-triangle-num i j)
   (if (or (= i 1) (= i j))
     1
